@@ -16,7 +16,7 @@ export default class Navbar_ extends Component {
             {/* <div style={{position:'absolute',left:'2rem',top:'0.4rem',width:'2vw'}}><img style={{width:'100%'}} src={Mylogo}/></div> */}
             <ul id ='ulMain' style={styles.ul}>
             
-            {/* <li style={{backgroundColor:'black',color:'white',float:'left',marginTop:'1rem',marginLeft:'1rem',paddingBottom:'1rem',borderRadius:'50%',height:'50px',width:'50px'}}><li style={{padding:'1rem',fontFamily:'Sacramento',fontWeight:'bold'}}>VS</li></li> */}
+           
             <li onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} id = 'ig' className='i' style={{float:'right'}}><a style={styles.nav_link} href='./Others'>Others</a></li>
             <li onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} id = 'ib' className='i' style={{float:'right'}}><a style={styles.nav_link} href='./Contact'>Contact me</a></li>
             <li onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} id = 'ig' className='i' style={{float:'right'}}><a style={styles.nav_link} href={Resume} target = "_blank">Resume</a></li>

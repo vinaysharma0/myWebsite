@@ -64,7 +64,6 @@ const styles = {
         transform: "translate(-50%,-30%)",
     },
     col: {
-        border: '1px solid black',
         marginBottom: '2rem',
         marginRight: '2rem',
         borderRadius: '10%',
@@ -73,7 +72,7 @@ const styles = {
         width: '20vw',
         padding:'2rem',
         // backgroundColor:'whitesmoke'
-        boxShadow:'4px 4px 4px 1px',
+        boxShadow:'3px 3px 4px 3px grey',
     },
     headings: {
         textShadow: '1px 5px whitesmoke'

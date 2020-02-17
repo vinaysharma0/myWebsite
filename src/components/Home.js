@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Gitlogo from '../logos/github.png';
 import Maillogo from '../logos/mail.png';
 import Linkedinlogo from '../logos/linkedin.png';
-import backImage from '../images/name.jpg';
 import main from '../images/main.jpg'
 //..............................................type writer animation ...........................................
 let TxtRotate = function (el, toRotate, period) {
@@ -63,10 +62,6 @@ window.onload = function () {
 };
 //......................................................end..............................
 
-//.....................canvas particle.............................
-// Scroll down for initialisation code
-
-//.........................end......................................
 export default class Home extends Component {
     componentWillMount() {
         document.body.style.background = `url(${main}) `;

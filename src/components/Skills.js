@@ -87,6 +87,8 @@ export default class Skills extends Component {
 const styles = {
     firstDiv: {
         textAlign: 'center',
+        // backgroundColor:'tomato',
+        // padding:'0.2rem'
     },
     secondDiv: {
         // backgroundColor: 'tomato',
