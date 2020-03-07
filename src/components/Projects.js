@@ -90,10 +90,11 @@ export default class Projects extends Component {
 const styles = {
     div: {
         display: 'flex',
+        marginTop:'23vh',
         position: 'absolute',
         left: '50%',
         top: '50%',
-        transform: "translate(-50%,-30%)",
+        transform: "translate(-50%,-50%)",
         textAlign: 'center',
     },
     col: {
@@ -104,7 +105,10 @@ const styles = {
         height: '40vh',
         width: '25vw',
         padding: '2rem',
+        paddingBottom: '5rem',
         boxShadow: '3px 3px 4px 3px grey',
+        marginTop:'0',
+        paddingTop:'0'
     },
     headings: {
         textShadow: '1px 5px whitesmoke',
@@ -121,15 +125,12 @@ const styles = {
         padding: '2rem',
         left: '15vw',
         boxShadow: '3px 3px 4px 3px grey',
-    },
-    brainstorm:{
-        height:'10vh',
-        width:'10vw',
-        marginBottom:'10vh',
+        marginTop:'0',
+        paddingTop:'0'
     },
     Social:{
         // height:'20vh',
-        width:'20vw'
+        width:'15vw'
     },
 
 }

@@ -1,0 +1,497 @@
+/* .........................................OTHERS.................................. */
+
+.div {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top:2vh;
+        transform: translate(-50%,-50%);
+        text-align:center;
+    }
+    .col {
+         border: 1px solid black;
+        margin-bottom: 5vh;
+        margin-right: 2rem;
+        border-radius: 10%;
+        text-align: center;
+        height: 20vh;
+        width: 20vw;
+        padding:2rem;
+        margin-top:0;
+        padding-bottom:3rem;
+        padding-top:1rem;
+        /* // backgroundColor:'whitesmoke'; */
+        box-shadow:3px 3px 4px 3px grey;
+    }
+    .headings {
+        text-shadow: 1px 5px whitesmoke
+    }
+    
+    @media screen and (max-width: 600px){
+        body, html {
+            
+            margin: 0;
+          }
+          .upperRowCont{
+            text-align:center;
+        }
+        .upperDivCont{
+            text-align:center;
+            font-size:1.5rem;
+        }
+        .iconsCont {
+            width: 12vw;
+            margin-top: 4vh;
+            margin-right: 4vw;
+        }
+        .paraCont{
+            font-size:1.5rem;
+            margin: 1rem;
+        }
+          .skillhead{
+            font-size: 2rem
+        }
+        .smallDivsSkills {
+            width: 10%;
+            text-align: center;
+            margin-right: 3rem;
+        }
+          .hey{
+            font-size: 2rem ;
+            font-weight:bold;
+            position: absolute;
+            bottom: 10%;
+        }
+        .firstDiv{
+            margin-right: 20px; 
+            margin-top: 40px; 
+            position: absolute;
+            top: 40%;
+                    transform: translateY(-40%);
+            /* left: 50%; */
+            /* width: 100vw; */
+        }
+        .secondDiv {
+            /* // backgroundColor:'tomato', */
+            width: 50%;
+            /* height: 100%; */
+            /* margin-top:5rem; */
+            text-align: center;
+            background: cover;
+            bottom: 10%;
+        }
+        .outerDiv {
+            /* // backgroundColor:'tomato', */
+            display: inline-block;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%,-50%);
+        }
+        .para{
+            text-align: justify;
+            /* line-height: '2rem'; */
+            font-size: 1rem;
+            /* font-weight:bold */
+            margin-left: 1rem;
+            margin-right: 1rem;
+            position: absolute;
+            bottom: 10%;
+        }
+          .innerDiv {
+            /* position: absolute; */
+            /* top: 35%; */
+            text-align: center;
+            /* left: 50%; */
+            /* transform: translate(-50%,-35%); */
+        }
+        
+        .heading_name_1 {
+            font-size: 3rem;
+            color: whitesmoke
+        }
+        .heading_name_2 {
+            font-size: 4rem;
+            color: gold
+        }
+        .heading_name_3 {
+            font-size: 2rem;
+            color: whitesmoke
+        }
+        .icons {
+            width: 3vw;
+            margin-top: 2vh;
+            margin-right: 2vw;
+        }
+        
+        .backImg {
+            width: 100%
+        }
+        .div {
+            display: block;
+            position: absolute;
+            top: 30%;
+            margin-top:2vh;
+            transform: translateX(-50%);
+            text-align:center;
+        }
+        .col {
+             border: 1px solid black;
+            margin-bottom: 5vh;
+            margin-right: 2vw;
+            border-radius: 10%;
+            text-align: center;
+            height: 60vh;
+            width: 40vw;
+            box-shadow:3px 3px 4px 3px grey;
+        }
+        .headings {
+            text-shadow: 1px 5px whitesmoke;
+        }
+    }
+    @media screen and (min-width: 600px){
+        body, html {
+            height: 100%;
+            margin: 0;
+          }
+        .div {
+            display: block;
+            position: absolute;
+            top: 30%;
+            margin-top:2vh;
+            transform: translateX(-50%);
+            text-align:center;
+        }
+        .col {
+             border: 1px solid black;
+            margin-bottom: 5vh;
+            margin-right: 2vw;
+            border-radius: 10%;
+            text-align: center;
+            height: 60vh;
+            width: 40vw;
+            padding:2rem;
+            box-shadow:3px 3px 4px 3px grey;
+        }
+        .headings {
+            text-shadow: 1px 5px whitesmoke;
+        }
+    }
+    @media screen and (min-width: 768px){
+        body, html {
+            /* height: 100%; */
+            margin: 0;
+          }
+        .div {
+            display: flex;
+
+            top: 10%;
+            text-align:center;
+        }
+        .col {
+             border: 1px solid black;
+            margin-bottom: 5vh;
+            margin-right: 2vw;
+            border-radius: 10%;
+            text-align: center;
+            height: 50vh;
+            width: 20vw;
+            padding:2rem;
+            margin-top:10vh;
+            padding-bottom:3rem;
+            padding-top:1rem;
+            /* // backgroundColor:'whitesmoke'; */
+            box-shadow:3px 3px 4px 3px grey;
+        }
+        .headings {
+            text-shadow: 1px 5px whitesmoke;
+        }
+    }
+    @media screen and (min-width: 1824px){
+        body, html {
+            /* height: 100%; */
+            margin: 0;
+            /* background-image: url("../images/others.jpg"); */
+            /* height: 100%;  */
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+          }
+        .div {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top:2vh;
+            transform: translate(-50%,-50%);
+            text-align:center;
+        }
+        .col {
+             border: 1px solid black;
+            margin-bottom: 5vh;
+            margin-right: 2rem;
+            border-radius: 10%;
+            text-align: center;
+            height: 30vh;
+            width: 20vw;
+            padding:2rem;
+            margin-top:0;
+            padding-bottom:3rem;
+            padding-top:1rem;
+            
+            box-shadow:3px 3px 4px 3px grey;
+        }
+        .headings {
+            text-shadow: 1px 5px whitesmoke;
+        }
+    }
+    
+/* ....................................OTHERS END.................................... */
+
+/* ...................................HOME STARTS ...................................*/
+.innerDiv {
+    /* // backgroundColor:'tomato', */
+
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-40%);
+
+}
+
+.heading_name_1 {
+
+    font-size: 4vw;
+    color: whitesmoke
+}
+.heading_name_2 {
+    font-size: 7vw;
+    color: gold
+}
+.heading_name_3 {
+    font-size: 2vw;
+    color: whitesmoke
+}
+.icons {
+    width: 3vw;
+     /* backgroundColor:'white', */
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+
+.backImg {
+    width: 100%
+}
+
+@media screen and (min-width: 600px){
+    .innerDiv {
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,-40%);
+    
+    }
+    
+    .heading_name_1 {
+        font-size: 3rem;
+        color: whitesmoke
+    }
+    .heading_name_2 {
+        font-size: 4rem;
+        color: gold
+    }
+    .heading_name_3 {
+        font-size: 2rem;
+        color: whitesmoke
+    }
+    .backImg {
+        width: 100%
+    }
+}
+/* .........................................HOME END.......................................... */
+
+
+
+/* ..........................................ABOUT.......................................... */
+.firstDiv{
+    margin-right: 40px;
+    width: 100%;
+}
+.hey{
+    font-size: 5px ;
+    font-weight:bold
+}
+.secondDiv {
+    /* // backgroundColor:'tomato', */
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    margin-top:5rem;
+    background: cover;
+}
+.outerDiv {
+    /* // backgroundColor:'tomato', */
+    display: flex;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.para{
+    text-align: justify;
+    /* // lineHeight: '2rem', */
+    font-weight:bold
+}
+
+
+/* ..........................................ABOUT END.......................................... */
+
+/* ............................................SKILLS STARTS..................................... */
+.firstDivSkills{
+    text-align: center;
+}
+.smallDivsSkills {
+    width: 5%;
+    margin: 0.4rem;
+    text-align: center;
+}
+.colSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skillhead{
+    font-size: 3rem
+}
+
+
+@media screen and (min-width: 600px){
+    .skillhead{
+        font-size: 2rem
+    }
+    .smallDivsSkills {
+        text-align: center;
+        margin-right: 3rem;
+    }
+    .colSkills {
+        display: flex;
+    } 
+}
+
+
+/* ............................................SKILLS ENDS...................................... */
+
+/* .....................................CONTACT ME............................................. */
+
+.upperRowCont{
+    text-align:center;
+}
+.upperDivCont{
+    text-align:center;
+    font-size:2rem;
+}
+.iconsCont {
+    width: 1px;
+    height:auto;
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+.paraCont{
+    font-size:1.5rem;
+}
+@media screen and (min-width: 600px){
+    .upperRowCont{
+        text-align:center;
+    }
+    .upperDivCont{
+        text-align:center;
+        font-size:2rem;
+    }
+    .iconsCont {
+        width: 6vw;
+        margin-top: 4vh;
+        margin-right: 4vw;
+    }
+    .paraCont{
+        font-size:1.5rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 1824px){
+    .upperRowCont{
+        text-align:center;
+    }
+    .upperDivCont{
+        text-align:center;
+        font-size:3rem;
+    }
+    .iconsCont {
+        width: 4vw;
+        margin-top: 4vh;
+        margin-right: 4vw;
+    }
+    .paraCont{
+        font-size:1.5rem;
+        margin: 1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .upperRowCont{
+        text-align:center;
+    }
+    .upperDivCont{
+        text-align:center;
+        font-size:2rem;
+    }
+    .iconsCont {
+        width: 4vw;
+        margin-top: 4vh;
+        margin-right: 4vw;
+    }
+    .paraCont{
+        font-size:1.5rem;
+        margin: 1rem;
+    }
+}
+/* ......................................CONTACT ME ENDS ......................................... */
+
+/* ...............................NAVBAR STARTS .............................................*/
+
+ .ul{
+    list-style-type: none;
+    height:6vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.nav_link{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2vh 1vw;
+  text-decoration: none;
+  font-weight:bold;
+}
+.li{
+    float:right
+} 
+
+  .li:hover{
+      background-color: whitesmoke;
+      border-radius: 20%;
+      transition: 0.7s;
+  }
+  .nav_link:hover{
+      color: black;
+  }
+  
+
+/* ...............................NAVBAR ENDS .............................................*/

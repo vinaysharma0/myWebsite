@@ -3,6 +3,7 @@ import Gitlogo from '../logos/github.png';
 import Maillogo from '../logos/mail.png';
 import Linkedinlogo from '../logos/linkedin.png';
 import main from '../images/main.jpg'
+import './main.css'
 //..............................................type writer animation ...........................................
 let TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
@@ -64,23 +65,27 @@ window.onload = function () {
 
 export default class Home extends Component {
     componentWillMount() {
+        let img = document.body.style
         document.body.style.background = `url(${main}) `;
         document.body.style.backgroundSize = 'cover';
-        // document.body.style.width = '100%';
+        img.height = '100vh';
+        // img.width = '100%';
+        // document.body.style.backgroundRepeat = 'no-repeat';
+        // document.body.height='100%'
     }
     render() {
         return (
             <>
                 <div>
-                    <div style={styles.innerDiv}>
+                    <div className="innerDiv">
 
-                        <h3 style={styles.heading_name_1}>Hey !, This is</h3>
-                        <h1 style={styles.heading_name_2}>Vinay Sharma</h1>
-                        <h1 style={styles.heading_name_3}>I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a tech lover.", "interested in innovation.", "motivated by Mr. Sunder Pichai.", "Python & JS lover.", "fun!" ]'></span></h1>
+                        <h3 className='heading_name_1'>Hey !, This is</h3>
+                        <h1 className="heading_name_2">Vinay Sharma</h1>
+                        <h1 className="heading_name_3">I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a tech lover.", "interested in innovation.", "motivated by Mr. Sunder Pichai.", "Python & JS lover.", "fun!" ]'></span></h1>
                         <div style={{ display: 'inline-block' }}>
-                            <a href="http://www.github.com/vinswalker"><img style={styles.icons} src={Gitlogo}></img></a>
-                            <a href="mailto:svinay0488@gmail.com"><img style={styles.icons} src={Maillogo} /></a>
-                            <a href="http://linkedin.com/in/vinay-sharma007"><img style={styles.icons} src={Linkedinlogo} /></a>
+                            <a target='_blank' href="http://www.github.com/vinswalker"><img className="icons" src={Gitlogo}></img></a>
+                            <a target='_blank' href="mailto:svinay0488@gmail.com"><img className="icons" src={Maillogo} /></a>
+                            <a target='_blank' href="http://linkedin.com/in/vinay-sharma007"><img className="icons" src={Linkedinlogo} /></a>
                         </div>
                     </div>
                 </div>
@@ -89,40 +94,3 @@ export default class Home extends Component {
     }
 }
 
-const styles = {
-    innerDiv: {
-        // backgroundColor:'tomato',
-
-        position: 'absolute',
-        top: '35%',
-        textAlign: 'center',
-        left: '50%',
-        transform: 'translate(-50%,-40%)',
-
-    },
-
-    heading_name_1: {
-
-        fontSize: '4vw',
-        color: 'whitesmoke'
-    },
-    heading_name_2: {
-        fontSize: '7vw',
-        color: 'gold'
-    },
-    heading_name_3: {
-        fontSize: '2vw',
-        color: 'whitesmoke'
-    },
-    icons: {
-        width: '3vw',
-        // backgroundColor:'white',
-        marginTop: '2vh',
-        marginRight: '2vw'
-    },
-    //..................
-    backImg: {
-        width: '100%'
-    }
-
-}

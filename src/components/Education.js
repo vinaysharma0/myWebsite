@@ -9,6 +9,7 @@ export default class Education extends Component {
         let ul = document.getElementById('ulMain').style
         ul.backgroundColor = '#2c393f'
         document.body.style.background = `url(${all}) no-repeat`;
+        document.body.style.margin = '0'
     }
     render() {
         return (
@@ -45,7 +46,7 @@ export default class Education extends Component {
                     <div style={styles.schoolLogo}><img src={BPIT} style = {{width:'100%'}}/></div>
                         <h3 style={styles.headings}>B.TECH</h3>
                         <p>Computer Science</p>
-                        <p>Bhagwan Parshuram Institute of Technology</p>
+                        <p>BPIT</p>
                         <p>--PURSUING--</p>
                         <p>2K19 - 2K22</p>
                     </Col>
@@ -61,7 +62,7 @@ const styles = {
         position: 'absolute',
         left: '50%',
         top: '35%',
-        transform: "translate(-50%,-30%)",
+        transform: "translate(-50%,-35%)",
     },
     col: {
         marginBottom: '2rem',
@@ -75,10 +76,11 @@ const styles = {
         boxShadow:'3px 3px 4px 3px grey',
     },
     headings: {
-        textShadow: '1px 5px whitesmoke'
+        textShadow: '1px 5px whitesmoke',
+        margin:'0'
     },
     schoolLogo:{
-        width:'40%',
+        width:'35%',
         height:'0',
         // marginTop:'1rem'
         // position:'absolute',
