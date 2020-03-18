@@ -8,9 +8,8 @@ import all from '../images/all.jpg'
 import './main.css'
 export default class Contact extends Component {
     componentDidMount() {
-        let ul = document.getElementById('ulMain').style
-        ul.backgroundColor = '#2c393f'
-        document.body.style.background = `url(${all}) no-repeat`;
+    
+        document.body.style.backgroundImage = "linear-gradient(to right, #4EB1BA, whitesmoke, #4EB1BA)";
        
     }
     constructor(props) {
@@ -24,7 +23,7 @@ export default class Contact extends Component {
             <div>
                 <Row className="upperRowCont">
                 <div  className="upperDivCont">
-                    <h1>Let's Talk</h1>
+                    <h1  className="text-focus-in">Let's Talk</h1>
                 </div>
                 <div>
             <p  className="paraCont">
@@ -37,7 +36,7 @@ export default class Contact extends Component {
                 </Row>
                 <Row  className="upperRowCont">
                 <div style={{ display: 'inline-block' }}>
-                        <a href="http://www.github.com/vinswalker"><img  className="iconsCont" src={Gitlogo}></img></a>
+                        <a  href="http://www.github.com/vinswalker"><img  className="iconsCont" src={Gitlogo}></img></a>
                         <a href="mailto:svinay0488@gmail.com"><img className="iconsCont" src={Maillogo} /></a>
                         <a href="http://linkedin.com/in/vinay-sharma007"><img className="iconsCont" src={Linkedinlogo} /></a>
                     </div>

@@ -65,13 +65,8 @@ window.onload = function () {
 
 export default class Home extends Component {
     componentWillMount() {
-        let img = document.body.style
-        document.body.style.background = `url(${main}) `;
-        document.body.style.backgroundSize = 'cover';
-        img.height = '100vh';
-        // img.width = '100%';
-        // document.body.style.backgroundRepeat = 'no-repeat';
-        // document.body.height='100%'
+        // document.body.backgroundColor = "#172727"
+        document.body.style.backgroundImage = "linear-gradient(to right, #1C2833 , #1C2833 , #1C2833)";
     }
     render() {
         return (
@@ -79,16 +74,22 @@ export default class Home extends Component {
                 <div>
                     <div className="innerDiv">
 
-                        <h3 className='heading_name_1'>Hey !, This is</h3>
-                        <h1 className="heading_name_2">Vinay Sharma</h1>
+                        <h3 className='heading_name_1'>Hello<span style={{color:'gold'}}>.</span></h3>
+                        <h1 className="tracking-in-expand-fwd">I'm  <span style={{color:'gold'}}>Vinay Sharma</span></h1>
+                        </div>
+                        <div className="secondHomeDiv">
                         <h1 className="heading_name_3">I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a tech lover.", "interested in innovation.", "motivated by Mr. Sunder Pichai.", "Python & JS lover.", "fun!" ]'></span></h1>
-                        <div style={{ display: 'inline-block' }}>
+                        </div>
+                        
+                        <div className="last_home_div"><p className="my_email">hello@vinswalker.me</p>
+                        <div style={{position:'absolute',right:"20%"}}>
                             <a target='_blank' href="http://www.github.com/vinswalker"><img className="icons" src={Gitlogo}></img></a>
                             <a target='_blank' href="mailto:svinay0488@gmail.com"><img className="icons" src={Maillogo} /></a>
                             <a target='_blank' href="http://linkedin.com/in/vinay-sharma007"><img className="icons" src={Linkedinlogo} /></a>
+                            </div>
                         </div>
                     </div>
-                </div>
+              
             </>
         )
     }
