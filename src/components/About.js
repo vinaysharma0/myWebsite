@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import vinay from '../images/vinay_about.jpg'
 import all from '../images/all.jpg'
 import './main.css'
-
+import './media_query.css'
 export default class About extends Component {
     constructor() {
         super();

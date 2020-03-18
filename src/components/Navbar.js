@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Resume from './Resume.pdf'
 import './main.css'
 import { Nav } from 'react-bootstrap';
-
+import './media_query.css'
 
 export default class Navbar_ extends Component {
 
@@ -66,6 +66,8 @@ export default class Navbar_ extends Component {
             </div>
        
        </div>
+
+       
        </div>
     )
       }

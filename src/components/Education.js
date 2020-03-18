@@ -5,7 +5,7 @@ import GTC from '../logos/gtc.png'
 import BPIT from '../logos/bpit.png'
 import all from '../images/all.jpg'
 import $ from 'jquery'
-
+import './media_query.css'
 
 $( document ).ready(function() {
     $( ".eduCol" ).animate({

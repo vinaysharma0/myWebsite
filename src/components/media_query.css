@@ -1,0 +1,643 @@
+
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0;
+    }
+    .upperRowCont{
+      text-align:center;
+  }
+  .upperDivCont{
+      text-align:center;
+      margin-top: 2rem;
+  }
+  .iconsCont {
+      width: 12vw;
+      margin-top: 4vh;
+      margin-right: 4vw;
+  }
+  .paraCont{
+      font-size:1.5rem;
+      margin: 1rem;
+  }
+  /* skills */
+    .skillhead{
+      font-size: 2rem
+  }
+  .skills_name{
+      font-size: small;
+  } 
+  .colSkills{
+      margin-right: 12vw;
+  }
+  .smallDivsSkills {
+      width: 10%;
+      text-align: center;
+      /* margin-right: 3rem; */
+  }
+    .hey{
+      font-size: 2rem ;
+      font-weight:bold;
+      position: absolute;
+      bottom: 10%;
+  }
+  /* ......................................HOME................................... */
+  .innerDiv {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 30%;
+    transform: translate(-30%,-35%);
+  
+  }
+  .secondHomeDiv{
+    bottom: 30%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-20%);
+  }
+  
+  .heading_name {
+  
+    font-size: 4rem;
+    color: whitesmoke;
+    text-align: left;
+    /* margin: 0; */
+  }
+  .tracking-in-expand-fwd {
+            font-size: 1.6rem;
+            color: white;            
+  }
+  .heading_name_3 {
+    font-size: 1.3rem;
+    color: whitesmoke
+  }
+  .icons {
+    width: 10vw;
+    margin-top: 6vh;
+    margin-right: 5vw;
+  }
+  .iconsDiv{
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    left: 20%;
+  }
+  .last_home_div{
+    background-color: #17c9ce;
+    height: 15vh;
+    width: 100vw;
+    text-align: center;
+    
+  }
+  .my_email{
+    font-size: 1.5rem;
+    color: white;
+    /* margin-left: 5vw !important; */
+    margin: 1rem;
+  
+  }
+  /* ...........................HOME END............................ */
+  /* OTHERS */
+  .div {
+      display: block;
+      position: absolute;
+      top: 10%;
+      margin-top:2vh;
+      transform: translateX(-50%);
+      text-align:center;
+  }
+  .othersCol {
+       border: 1px solid black;
+      margin-bottom: 5vh;
+      margin-right: 2vw;
+      text-align: center;
+      height: 10vh;
+      width: 80vw;
+      box-shadow:3px 3px 4px 3px grey;
+  }
+  .headings {
+      color: black;
+      margin-bottom: 1rem;
+  }
+  
+  /* OTHERS END */
+  .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  
+  
+  /* ABOUT */
+  
+  .firstDiv{
+  /* margin-right: 40px; */
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  }
+  
+  .text-focus-in {
+          font-size: 2rem ;
+          font-weight:bold;
+          /* background-color:tomato; */
+  }
+  
+  
+  
+  .secondDiv {
+
+  width: 70vw ;
+  position: absolute ;
+  top: 20%;
+  height: 30vh;
+  margin-left: 10vw;
+  /* padding: 0; */
+  margin-top:0;
+  /* background: cover; */
+  }
+  
+  
+  
+  .outerDiv {
+  display: block;
+  /* padding-left: 5vw; */
+  
+  text-align: center;
+  
+  }
+  .para{
+  text-align: justify;
+  font-weight:bold;
+  margin:5vw;
+  position: absolute;
+  top: 65%;
+  /* background-color: red; */
+  }
+  
+  /* ABOUT END */
+
+  /* ............................................SKILLS STARTS..................................... */
+
+
+.secondDivSkills{
+    margin-top: 10vh;
+}
+
+.smallDivsSkills {
+    width: 15vw;
+    margin: 1rem;
+    text-align: center;
+}
+.colSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:3rem;
+}
+.skillhead{
+    font-size: 3rem
+}
+
+/* ............................................SKILLS ENDS...................................... */
+/* ..........................EDUCATION..........................................*/
+
+.eduDiv {
+    display: inline-block;
+    /* position: absolute; */
+    left: 50%;
+    margin: 0;
+    top: 50%;
+    transform: translate(-50%,-30%);
+}
+
+.eduCol {
+    margin: 0;
+    margin-bottom: 2rem;
+    /* margin-right: 2rem; */
+    /* border-radius: 10%,; */
+    text-align: right;
+    height: 6vh;
+    width: 80vw;
+    /* padding:1rem; */
+    /* // backgroundColor:'whitesmoke' */
+    box-shadow:3px 3px 4px 3px grey;
+
+}
+.eduHeadings {
+    color: black;
+    margin:1vh;
+}
+.schoolLogo{
+    width:30%;
+    height:0;
+    /* // marginTop:'1rem' */
+    /* // position:'absolute', */
+}
+
+/* ............................PROJECTS....................... */
+.projectDiv {
+    display: inline-block;
+    margin-top:10vh;
+    position: absolute;
+    left: 50%;
+    /* top: 10%; */
+    transform: translate(-50%);
+    text-align: center;
+}
+.projectCol {
+    
+    margin-bottom: 3rem;
+    margin-right: 0;
+    text-align: center;
+    /* background-color: whitesmoke; */
+    height: 20vh;
+    width: 80vw;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    box-shadow: 3px 3px 4px 3px grey;
+    margin-top:0;
+    padding-top:0;
+}
+.projectHeadings {
+    color :black;
+    margin: 1rem;
+
+}
+
+.Social{
+    /* // height:'20vh', */
+    width:60%
+}
+
+  
+  
+}
+  @media screen and (min-width: 768px){
+
+    /* OTHERS */
+    .div {
+        display: flex;
+    
+        top:45%;
+        text-align:center;
+    }
+    .othersCol {
+         border: 1px solid black;
+        margin-bottom: 3rem;
+        margin-right: 2vw;
+        text-align: center;
+        height: 15vh; /* height is 15 for making animation good original height is in jquery in original page */
+        width: 30vw;
+        box-shadow:3px 3px 4px 3px grey;
+    }
+    .headings {
+        color:black
+    }
+    /* OTHERS END */
+
+    /* .....................................CONTACT ME............................................. */
+
+.upperRowCont{
+    text-align:center;
+}
+.upperDivCont{
+    text-align:center;
+    font-size:2rem;
+}
+.iconsCont {
+    width: 45px;
+    height:auto;
+    margin-top: 2vh;
+    margin-right: 4vw;
+}
+.paraCont{
+    font-size:1.5rem;
+}
+
+
+/* ......................................CONTACT ME ENDS ......................................... */
+  
+ /* ............................PROJECTS....................... */
+ .projectDiv {
+    display: inline-block;
+    margin-top:10vh;
+    position: absolute;
+    left: 50%;
+    /* top: 10%; */
+    transform: translate(-50%);
+    text-align: center;
+}
+.projectCol {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    
+    text-align: center;
+    height: 20vh;
+    width: 50vw;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    box-shadow: 3px 3px 4px 3px grey;
+    margin-top:0;
+    padding-top:0;
+}
+.projectHeadings {
+    color :black;
+
+}
+.lastCol{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    
+    text-align: center;
+    position: absolute;
+    height: 25vh;
+    width: 60vw;
+    padding: 2rem;
+    left: 10vw;
+    box-shadow: 3px 3px 4px 3px grey;
+    margin-top:0;
+    padding-top:0;
+}
+.Social{
+    /* // height:'20vh', */
+    width:20vw
+}
+
+/* ......................PROJECT END............................... */
+/* ..........................EDUCATION..........................................*/
+
+.eduDiv {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-35%);
+}
+
+.eduCol {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    border-radius: 10%,;
+    text-align: right;
+    height: 5vh;
+    width: 40vw;
+    padding:2rem;
+    box-shadow:3px 3px 4px 3px grey;
+
+}
+.eduHeadings {
+    color: black;
+    margin:0;
+}
+.schoolLogo{
+    width:20%;
+    height:0;
+}
+/* ....................EDUCATION END.......................... */
+
+  }
+  @media screen and (min-width: 768px){
+/* ..........................................ABOUT.......................................... */
+.firstDiv{
+    /* margin-right: 40px; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+.text-focus-in {
+            font-size: 4rem ;
+            font-weight:bold
+}
+.secondDiv  {
+    /* background-color:tomato; */
+    /* padding:0; */
+    /* margin: 0; */
+    width: 80vw;
+    height: 90vh;
+    /* margin: rem; */
+    margin-left: 2rem;
+    margin-right: 4rem;
+    margin-top:8rem;
+    background: cover;
+}
+
+  
+.outerDiv {
+    display: flex ;
+    /* padding-left: 5vw; */
+
+    text-align: center;
+
+}
+.para{
+            text-align: justify;
+    font-weight:bold
+}
+  
+
+/* ..........................................ABOUT END.......................................... */
+
+}
+@media screen and (width: 768px){
+     /* ......................................HOME................................... */
+  .innerDiv {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 30%;
+    transform: translate(-30%,-35%);
+  }
+  .secondHomeDiv{
+      
+    bottom: 30%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-20%);
+  }
+  
+  .heading_name {
+  
+    font-size: 5rem;
+    color: whitesmoke;
+    text-align: left;
+    margin: 0;
+  }
+  .tracking-in-expand-fwd {
+            font-size: 4vw;
+            color: white;            
+  }
+  .heading_name_3 {
+    font-size: 1.5rem;
+    color: whitesmoke
+  }
+  .icons {
+    width: 7vw;
+    margin-top: 6vh;
+    margin-right: 5vw;
+  }
+  .iconsDiv{
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    left: 25%;
+  }
+  .last_home_div{
+    background-color: #17c9ce;
+    height: 15vh;
+    width: 100vw;
+    text-align: center;
+    
+  }
+  .my_email{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 15vw;
+  
+  }
+  /* ...........................HOME END............................ */
+}
+
+
+
+  @media screen and (min-width: 1824px){
+/* ..........................................ABOUT.......................................... */
+.firstDiv{
+    /* margin-right: 40px; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+.text-focus-in {
+            font-size: 4rem ;
+            font-weight:bold
+}
+.secondDiv  {
+    /* background-color:tomato; */
+    /* padding:0; */
+    /* margin: 0; */
+    width: 50vw;
+    height: 50vh;
+    /* margin: rem; */
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top:8rem;
+    background: cover;
+}
+
+  
+.outerDiv {
+    display: flex ;
+    /* padding-left: 5vw; */
+
+    text-align: center;
+
+}
+.para{
+            text-align: justify;
+    font-weight:bold
+}
+  
+
+/* ..........................................ABOUT END.......................................... */
+
+ 
+  }
+  
+  @media screen and (width: 1024px){
+     /* ......................................HOME................................... */
+     .innerDiv {
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        left: 30%;
+        transform: translate(-30%,-35%);
+      
+      }
+      .secondHomeDiv{
+        bottom: 30%;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,-20%);
+      }
+      
+      .heading_name {
+      
+        font-size: 5rem;
+        color: whitesmoke;
+        text-align: left !important;
+        margin: 0;
+      }
+      .tracking-in-expand-fwd {
+                font-size: 4vw;
+                color: white;            
+      }
+      .heading_name_3 {
+        font-size: 1.5rem;
+        color: whitesmoke
+      }
+      .icons {
+        width: 5vw;
+        margin-top: 6vh;
+        margin-right: 5vw;
+      }
+      .iconsDiv{
+        text-align: center;
+        margin-top: 1rem;
+        position: absolute;
+        left: 25%;
+      }
+      .last_home_div{
+        background-color: #17c9ce;
+        height: 15vh;
+        width: 100vw;
+        text-align: center;
+        
+      }
+      .my_email{
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 20vw;
+      
+      }
+      /* ...........................HOME END............................ */
+  }

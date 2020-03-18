@@ -6,6 +6,7 @@ import Linkedinlogo from '../logos/linkedin.png';
 import { Link, Redirect,useHistory } from "react-router-dom";
 import all from '../images/all.jpg'
 import './main.css'
+import './media_query.css'
 export default class Contact extends Component {
     componentDidMount() {
     

@@ -3,11 +3,11 @@ import { Col, Row } from 'react-bootstrap'
 // import others from '../images/others.jpg'
 import './main.css'
 import $ from 'jquery'
-
+import './media_query.css'
 $( document ).ready(function() {
     $( ".othersCol" ).animate({
 
-        height: '30vh',
+        height: '35vh',
       }, 1000, function() {
       });
     });

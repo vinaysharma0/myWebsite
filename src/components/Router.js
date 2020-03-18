@@ -7,6 +7,8 @@ import Education from './Education';
 import Projects from './Projects';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Others from './Others';
+
+
 export default class Router extends Component {
     render() {
         return (

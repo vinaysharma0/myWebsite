@@ -11,6 +11,7 @@ import React_ from '../logos/react.png'
 import Css from '../logos/css.png'
 import all from '../images/all.jpg'
 import './main.css'
+import './media_query.css'
 export default class Skills extends Component {
     componentDidMount() {
         
@@ -20,9 +21,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div>
-                <div className="firstDivSkills">
-                    {/* <h1 className="skillhead">Skills I have</h1> */}
-                </div>
+                
                 <div  className="secondDivSkills">
                     <div  className="colSkills">
                         <div  className="smallDivsSkills">

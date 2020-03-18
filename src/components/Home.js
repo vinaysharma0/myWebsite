@@ -4,6 +4,7 @@ import Maillogo from '../logos/mail.png';
 import Linkedinlogo from '../logos/linkedin.png';
 import main from '../images/main.jpg'
 import './main.css'
+import './media_query.css'
 //..............................................type writer animation ...........................................
 let TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
@@ -74,7 +75,7 @@ export default class Home extends Component {
                 <div>
                     <div className="innerDiv">
 
-                        <h3 className='heading_name_1'>Hello<span style={{color:'gold'}}>.</span></h3>
+                        <h3 className='heading_name'>Hello<span style={{color:'gold'}}>.</span></h3>
                         <h1 className="tracking-in-expand-fwd">I'm  <span style={{color:'gold'}}>Vinay Sharma</span></h1>
                         </div>
                         <div className="secondHomeDiv">
@@ -82,7 +83,7 @@ export default class Home extends Component {
                         </div>
                         
                         <div className="last_home_div"><p className="my_email">hello@vinswalker.me</p>
-                        <div style={{position:'absolute',right:"20%"}}>
+                        <div className = "iconsDiv" >
                             <a target='_blank' href="http://www.github.com/vinswalker"><img className="icons" src={Gitlogo}></img></a>
                             <a target='_blank' href="mailto:svinay0488@gmail.com"><img className="icons" src={Maillogo} /></a>
                             <a target='_blank' href="http://linkedin.com/in/vinay-sharma007"><img className="icons" src={Linkedinlogo} /></a>

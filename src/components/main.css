@@ -31,265 +31,9 @@
         color: black;
     }
     
-    @media screen and (max-width: 600px){
-        body, html {
-            
-            margin: 0;
-          }
-          .upperRowCont{
-            text-align:center;
-        }
-        .upperDivCont{
-            text-align:center;
-            font-size:1.5rem;
-        }
-        .iconsCont {
-            width: 12vw;
-            margin-top: 4vh;
-            margin-right: 4vw;
-        }
-        .paraCont{
-            font-size:1.5rem;
-            margin: 1rem;
-        }
-          .skillhead{
-            font-size: 2rem
-        }
-        .skills_name{
-            font-size: small;
-        }
-        .colSkills{
-            margin-right: 12vw;
-        }
-        .smallDivsSkills {
-            width: 10%;
-            text-align: center;
-            /* margin-right: 3rem; */
-        }
-          .hey{
-            font-size: 2rem ;
-            font-weight:bold;
-            position: absolute;
-            bottom: 10%;
-        }
-        .firstDiv{
-            margin-right: 20px; 
-            margin-top: 40px; 
-            position: absolute;
-            top: 40%;
-                    transform: translateY(-40%);
-            /* left: 50%; */
-            /* width: 100vw; */
-        }
-        .secondDiv {
-            /* // backgroundColor:'tomato', */
-            width: 50%;
-            /* height: 100%; */
-            /* margin-top:5rem; */
-            text-align: center;
-            background: cover;
-            bottom: 10%;
-        }
-        .outerDiv {
-            /* // backgroundColor:'tomato', */
-            display: inline-block;
-            width: 100%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            text-align: center;
-            transform: translate(-50%,-50%);
-        }
-        .para{
-            text-align: justify;
-            /* line-height: '2rem'; */
-            font-size: 1rem;
-            /* font-weight:bold */
-            margin-left: 1rem;
-            margin-right: 1rem;
-            position: absolute;
-            bottom: 10%;
-        }
-          .innerDiv {
-            /* position: absolute; */
-            /* top: 35%; */
-            text-align: center;
-            /* left: 50%; */
-            /* transform: translate(-50%,-35%); */
-        }
-        
-        .heading_name_1 {
-            font-size: 3rem;
-            color: whitesmoke
-        }
-        
-        
-  
-        .heading_name_3 {
-            font-size: 2rem;
-            color: whitesmoke
-        }
-        .icons {
-            width: 3vw;
-            margin-top: 2vh;
-            margin-right: 2vw;
-        }
-        
-        .backImg {
-            width: 100%
-        }
-        .div {
-            display: block;
-            position: absolute;
-            top: 30%;
-            margin-top:2vh;
-            transform: translateX(-50%);
-            text-align:center;
-        }
-        .othersCol {
-             border: 1px solid black;
-            margin-bottom: 5vh;
-            margin-right: 2vw;
-            
-            text-align: center;
-            height: 60vh;
-            width: 40vw;
-            box-shadow:3px 3px 4px 3px grey;
-        }
-        .headings {
-            color: black;
-        }
-    }
-    @media screen and (min-width: 600px){
-        body, html {
-            height: 100%;
-            margin: 0;
-          }
-          .skillhead{
-            font-size: 2rem
-        }
-        .smallDivsSkills {
-            text-align: center;
-            margin-right: 3rem;
-        }
-        .colSkills {
-            display: flex;
-        } 
-          .innerDiv {
-            position: absolute;
-            top: 35%;
-            text-align: center;
-            left: 50%;
-            transform: translate(-50%,-40%);
-        
-        }
-        
-        .heading_name_1 {
-            font-size: 3rem;
-            color: whitesmoke
-        }
-        .heading_name_2 {
-            font-size: 4rem;
-            color: gold
-        }
-        .heading_name_3 {
-            font-size: 2rem;
-            color: whitesmoke
-        }
-        .backImg {
-            width: 100%
-        }
-        .div {
-            display: block;
-            position: absolute;
-            top: 30%;
-            margin-top:2vh;
-            transform: translateX(-50%);
-            text-align:center;
-        }
-        .othersCol {
-             border: 1px solid black;
-            margin-bottom: 5vh;
-            margin-right: 2vw;
-            
-            text-align: center;
-            height: 60vh;
-            width: 40vw;
-            padding:2rem;
-            box-shadow:3px 3px 4px 3px grey;
-        }
-        .headings {
-            color: black;
-        }
-    }
-    @media screen and (min-width: 768px){
-        body, html {
-            /* height: 100%; */
-            margin: 0;
-          }
-        .div {
-            display: flex;
-
-            top: 10%;
-            text-align:center;
-        }
-        .othersCol {
-             border: 1px solid black;
-            margin-bottom: 5vh;
-            margin-right: 2vw;
-            
-            text-align: center;
-            height: 50vh;
-            width: 20vw;
-            padding:2rem;
-            margin-top:10vh;
-            padding-bottom:3rem;
-            padding-top:1rem;
-            /* // backgroundColor:'whitesmoke'; */
-            box-shadow:3px 3px 4px 3px grey;
-        }
-        .headings {
-            color:black
-        }
-    }
-    @media screen and (min-width: 1824px){
-        body, html {
-            /* height: 100%; */
-            margin: 0;
-            /* background-image: url("../images/others.jpg"); */
-            /* height: 100%;  */
-            /* background-position: center; */
-            /* background-repeat: no-repeat; */
-            /* background-size: cover; */
-          }
-        .div {
-            display: flex;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin-top:2vh;
-            transform: translate(-50%,-50%);
-            text-align:center;
-        }
-        .othersCol {
-             border: 1px solid black;
-            margin-bottom: 5vh;
-            margin-right: 2rem;
-            
-            text-align: center;
-            height: 20vh;
-            width: 20vw;
-            padding:2rem;
-            margin-top:0;
-            padding-bottom:3rem;
-            padding-top:1rem;
-            
-            box-shadow:3px 3px 4px 3px grey;
-        }
-        .headings {
-            color: black;
-        }
-    }
+   
+   
+    
     
 /* ....................................OTHERS END.................................... */
 
@@ -299,10 +43,13 @@
 
     position: absolute;
     top: 35%;
-    text-align: center;
-    left: 30%;
+    left: 30% !important;
     transform: translate(-30%,-35%);
 
+}
+ .iconsDiv{
+  right:20%;
+  position: absolute;
 }
 .secondHomeDiv{
     position: absolute;
@@ -311,19 +58,8 @@
     left: 50%;
     transform: translate(-50%,-20%);
 }
-/* .home_runner{
-    width: 68px; height: 115px;
-    background-image: url("../images/ninja_running.png");
-}
-.home_runner {
-    animation: walk 8s steps(27) infinite;
-  }
-  @keyframes walk {
-    from { background-position: 0px; }
-    to { background-position: -551px; } 
-} */
  
-.heading_name_1 {
+ .heading_name {
 
     font-size: 5vw;
     color: whitesmoke;
@@ -398,7 +134,8 @@
 .my_email{
     font-size: 2rem;
     color: white;
-    text-indent:20vw ;
+    text-indent:20vw !important ;
+    margin-top: 1rem;
     /* font-weight: bolder; */
 }
 
@@ -446,7 +183,7 @@
   }
   
   
-.secondDiv {
+.secondDiv  {
     /* background-color:tomato; */
     width: 70vw;
     height: 70vh;
@@ -455,38 +192,10 @@
     margin-top:10vh;
     background: cover;
 }
-.tilt-in-fwd-tr {
-	-webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
- @-webkit-keyframes tilt-in-fwd-tr {
-    0% {
-      -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-              transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-      opacity: 1;
-    }
-  }
-  @keyframes tilt-in-fwd-tr {
-    0% {
-      -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-              transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-      opacity: 1;
-    }
-  }
-  
+
   
 .outerDiv {
-    display: flex;
+    display: flex ;
     padding-left: 5vw;
 
     text-align: center;
@@ -502,9 +211,7 @@
 
 /* ............................................SKILLS STARTS..................................... */
 
-.firstDivSkills{
-    text-align: center;
-}
+
 .secondDivSkills{
     margin-top: 10vh;
 }
@@ -522,8 +229,44 @@
 .skillhead{
     font-size: 3rem
 }
-
-
+.skills_name{
+  -webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes skills_name {
+  0% {
+  letter-spacing: -0.5em;
+  -webkit-transform: translateZ(-800px);
+          transform: translateZ(-800px);
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  opacity: 1;
+  }
+  }
+  @keyframes skills_name {
+  0% {
+  letter-spacing: -0.5em;
+  -webkit-transform: translateZ(-800px);
+          transform: translateZ(-800px);
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  opacity: 1;
+  }
+  }
 
 
 /* ............................................SKILLS ENDS...................................... */
@@ -546,61 +289,8 @@
 .paraCont{
     font-size:1.5rem;
 }
-@media screen and (min-width: 600px){
-    .upperRowCont{
-        text-align:center;
-    }
-    .upperDivCont{
-        text-align:center;
-        font-size:2rem;
-    }
-    .iconsCont {
-        width: 6vw;
-        margin-top: 4vh;
-        margin-right: 4vw;
-    }
-    .paraCont{
-        font-size:1.5rem;
-        margin: 1rem;
-    }
-}
 
-@media screen and (min-width: 1824px){
-    .upperRowCont{
-        text-align:center;
-    }
-    .upperDivCont{
-        text-align:center;
-        font-size:3rem;
-    }
-    .iconsCont {
-        width: 4vw;
-        margin-top: 4vh;
-        margin-right: 4vw;
-    }
-    .paraCont{
-        font-size:1.5rem;
-        margin: 1rem;
-    }
-}
-@media screen and (min-width: 1024px){
-    .upperRowCont{
-        text-align:center;
-    }
-    .upperDivCont{
-        text-align:center;
-        font-size:2rem;
-    }
-    .iconsCont {
-        width: 4vw;
-        margin-top: 4vh;
-        margin-right: 4vw;
-    }
-    .paraCont{
-        font-size:1.5rem;
-        margin: 1rem;
-    }
-}
+
 /* ......................................CONTACT ME ENDS ......................................... */
 
 
@@ -645,12 +335,14 @@
     left: 50%;
     /* top: 10%; */
     transform: translate(-50%);
+    
     text-align: center;
 }
 .projectCol {
     margin-bottom: 2rem;
-    margin-right: 2rem;
-    
+    /* margin-right: 2rem; */
+    margin:0;
+    padding: 0;
     text-align: center;
     /* background-color: whitesmoke; */
     height: 20vh;
@@ -741,58 +433,12 @@
   }
   
   .nav > .nav-links > a:hover {
-    background-color:orangered;
+    background-color:tomato;
   }
   
   .nav > #nav-check {
     display: none;
   }
   
-  @media (max-width:600px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-  }
-
 
 /* .......................NAVBAR END.......................... */
