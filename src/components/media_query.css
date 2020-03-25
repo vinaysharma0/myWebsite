@@ -313,7 +313,9 @@
   
 }
   @media screen and (min-width: 768px){
-
+.skills_name{
+  font-size: 1rem;
+}
     /* OTHERS */
     .div {
         display: flex;

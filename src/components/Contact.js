@@ -7,9 +7,12 @@ import { Link, Redirect,useHistory } from "react-router-dom";
 import all from '../images/all.jpg'
 import './main.css'
 import './media_query.css'
+import './Navbar'
 export default class Contact extends Component {
     componentDidMount() {
-    
+        let nav_link_color = document.querySelector('.menu').style
+        nav_link_color.backgroundColor = "#374147"
+        
         document.body.style.backgroundImage = "linear-gradient(to right, #4EB1BA, whitesmoke, #4EB1BA)";
        
     }

@@ -6,7 +6,7 @@ import BPIT from '../logos/bpit.png'
 import all from '../images/all.jpg'
 import $ from 'jquery'
 import './media_query.css'
-
+import './Navbar'
 $( document ).ready(function() {
     $( ".eduCol" ).animate({
 
@@ -16,14 +16,25 @@ $( document ).ready(function() {
     });
 
 export default class Education extends Component {
+    constructor(){
+        super()
+
+    }
+    
     componentDidMount() {
         document.body.style.backgroundImage = "linear-gradient(to right, #4EB1BA, whitesmoke, #4EB1BA)";
         document.body.style.margin = '0'
+        let nav_link_color = document.querySelector('.menu').style
+        nav_link_color.backgroundColor = "#374147"
+        
+        // console.log("hello i am N",n)
+        
      
     }
     // With the element initially hidden, we can show it slowly:
     
             render() {
+                // console.log(this.props)
                 return (
                     <div className="eduDiv">
                         <Row>

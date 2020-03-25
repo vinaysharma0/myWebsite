@@ -5,6 +5,7 @@ import Linkedinlogo from '../logos/linkedin.png';
 import main from '../images/main.jpg'
 import './main.css'
 import './media_query.css'
+import './Navbar'
 //..............................................type writer animation ...........................................
 let TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
@@ -66,8 +67,8 @@ window.onload = function () {
 
 export default class Home extends Component {
     componentWillMount() {
-        // document.body.backgroundColor = "#172727"
         document.body.style.backgroundImage = "linear-gradient(to right, #1C2833 , #1C2833 , #1C2833)";
+        
     }
     render() {
         return (

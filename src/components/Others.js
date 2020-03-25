@@ -14,6 +14,8 @@ $( document ).ready(function() {
 
 export default class Others extends Component {
     componentDidMount() {
+        let nav_link_color = document.querySelector('.menu').style
+        nav_link_color.backgroundColor = "#374147"
         document.body.style.backgroundImage = "linear-gradient(to right, #4EB1BA, whitesmoke, #4EB1BA)";
     }
     render() {

@@ -3,12 +3,14 @@ import vinay from '../images/vinay_about.jpg'
 import all from '../images/all.jpg'
 import './main.css'
 import './media_query.css'
+import './Navbar'
 export default class About extends Component {
     constructor() {
         super();
     }
     componentDidMount() {
-        
+        let nav_link_color = document.querySelector('.menu').style
+        nav_link_color.backgroundColor = "#374147"
         document.body.style.backgroundImage = "linear-gradient(to right, #4EB1BA, whitesmoke, #4EB1BA)";
     }
     render() {
