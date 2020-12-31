@@ -74,7 +74,7 @@ export default class Home extends Component {
         return (
             <>
                 <div>
-                    {/* <div className="innerDiv">
+                    <div className="innerDiv">
 
                         <h3 className='heading_name'>Hello<span style={{color:'gold'}}>.</span></h3>
                         <h1 className="tracking-in-expand-fwd">I'm  <span style={{color:'gold'}}>Vinay Sharma</span></h1>
@@ -89,7 +89,7 @@ export default class Home extends Component {
                             <a target='_blank' href="mailto:svinay0488@gmail.com"><img className="icons" src={Maillogo} /></a>
                             <a target='_blank' href="http://linkedin.com/in/vinay-sharma007"><img className="icons" src={Linkedinlogo} /></a>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
               
             </>
