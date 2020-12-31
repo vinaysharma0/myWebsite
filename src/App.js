@@ -4,12 +4,15 @@ import { BrowserRouter } from 'react-router-dom';
 import Navbar_ from './components/Navbar';
 
 function App() {
+  
   return (
-    <BrowserRouter>
+    
+    <BrowserRouter >
       <div>
         {/* <Login /> */}
 
         <Navbar_ />
+        
         {/* <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
