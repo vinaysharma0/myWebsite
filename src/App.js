@@ -12,7 +12,7 @@ function App() {
 
         <Navbar_ />
         
-        <Router basename="vinswalker/components" />
+        <Router />
 
       </div>
     </BrowserRouter>
