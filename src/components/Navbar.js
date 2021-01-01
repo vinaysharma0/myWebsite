@@ -4,7 +4,7 @@ import './main.css'
 import { Nav } from 'react-bootstrap';
 import './media_query.css'
 import $ from 'jquery'
-import { Link, NavLink } from 'react-router-dom';
+
 
 
 

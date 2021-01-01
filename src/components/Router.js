@@ -14,7 +14,7 @@ export default class Router extends Component {
         return (
             <HashRouter>
           
-          
+  
             
             <Route path="/" exact component={Home} />
             <Route path="/About"  component={About} />

@@ -17,27 +17,11 @@ function App() {
     
     <div>
     
+    
+   <>
     <Navbar_ />
-    <HashRouter  >
-    <NavLink tag={Link} to="./About" >About</NavLink>
-    <NavLink tag={Link} to="./Contact" >Contact</NavLink>
-    <NavLink tag={Link} to="./Skills" >Skills</NavLink>
-    <NavLink tag={Link} to="./Others" >Others</NavLink>
-    
-                
-        <Route path="/" exact component={Home} />
-        <Route path="/About"  component={About} />
-        <Route path="/Contact" component={Contact} />
-        
-        <Route path="/Skills" component={Skills} />
-        <Route path="/Education" component={Education} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/Others" component={Others} />
-        {/* <Redirect to='/'/>   */}
-    
-        </HashRouter>
-        
-        
+    <Router/>
+   </>
     
    </div>
   );
