@@ -18,7 +18,7 @@ function App() {
     <div>
     
     <Navbar_ />
-    <HashRouter hashType="noslash"  >
+    <HashRouter  >
     <NavLink tag={Link} to="./About" >About</NavLink>
     <NavLink tag={Link} to="./Contact" >Contact</NavLink>
     <NavLink tag={Link} to="./Skills" >Skills</NavLink>
